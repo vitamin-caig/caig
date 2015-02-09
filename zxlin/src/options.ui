@@ -1,0 +1,2450 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>OptionsDlg</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>OptionsDlg</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>322</width>
+            <height>642</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Options</string>
+    </property>
+    <property name="sizeGripEnabled">
+        <bool>true</bool>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>11</number>
+        </property>
+        <property name="spacing">
+            <number>6</number>
+        </property>
+        <widget class="QTabWidget" row="0" column="0">
+            <property name="name">
+                <cstring>tabWidget</cstring>
+            </property>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>Widget2</cstring>
+                </property>
+                <attribute name="title">
+                    <string>BetaDisk</string>
+                </attribute>
+                <grid>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QGroupBox" row="0" column="0">
+                        <property name="name">
+                            <cstring>groupBox1</cstring>
+                        </property>
+                        <property name="sizePolicy">
+                            <sizepolicy>
+                                <hsizetype>1</hsizetype>
+                                <vsizetype>1</vsizetype>
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                            </sizepolicy>
+                        </property>
+                        <property name="title">
+                            <string>Drives setup</string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLabel" row="6" column="0">
+                                <property name="name">
+                                    <cstring>BETAState3</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Drive D</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="2" column="0">
+                                <property name="name">
+                                    <cstring>BETAState1</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Drive B</string>
+                                </property>
+                            </widget>
+                            <widget class="QCheckBox" row="6" column="1">
+                                <property name="name">
+                                    <cstring>BETAWriteProtect3</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>write protect</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Disable writing to image</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="5" column="2">
+                                <property name="name">
+                                    <cstring>Eject2</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>X</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Remove image from drive</string>
+                                </property>
+                            </widget>
+                            <widget class="QCheckBox" row="2" column="1">
+                                <property name="name">
+                                    <cstring>BETAWriteProtect1</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>write protect</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Disable writing to image</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="1" column="2">
+                                <property name="name">
+                                    <cstring>Eject0</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>0</hsizetype>
+                                        <vsizetype>0</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>X</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Remove image from drive</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="4" column="0">
+                                <property name="name">
+                                    <cstring>BETAState2</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Drive C</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="7" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>BETAImages3</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>7</hsizetype>
+                                        <vsizetype>0</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="cursor">
+                                    <cursor>13</cursor>
+                                </property>
+                                <property name="text">
+                                    <string>-no image-</string>
+                                </property>
+                                <property name="flat">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Open image to drive</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="3" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>BETAImages1</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>7</hsizetype>
+                                        <vsizetype>0</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="cursor">
+                                    <cursor>13</cursor>
+                                </property>
+                                <property name="text">
+                                    <string>-no image-</string>
+                                </property>
+                                <property name="flat">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Open image to drive</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="7" column="2">
+                                <property name="name">
+                                    <cstring>Eject3</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>X</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Remove image from drive</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="3" column="2">
+                                <property name="name">
+                                    <cstring>Eject1</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>X</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Remove image from drive</string>
+                                </property>
+                            </widget>
+                            <widget class="QCheckBox" row="0" column="1">
+                                <property name="name">
+                                    <cstring>BETAWriteProtect0</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>write protect</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Disable writing to image</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="0" column="0">
+                                <property name="name">
+                                    <cstring>BETAState0</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Drive A</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="1" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>BETAImages0</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>7</hsizetype>
+                                        <vsizetype>0</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="cursor">
+                                    <cursor>13</cursor>
+                                </property>
+                                <property name="text">
+                                    <string>-no image-</string>
+                                </property>
+                                <property name="flat">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Open image to drive</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="5" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>BETAImages2</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>7</hsizetype>
+                                        <vsizetype>0</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="cursor">
+                                    <cursor>13</cursor>
+                                </property>
+                                <property name="text">
+                                    <string>-no image-</string>
+                                </property>
+                                <property name="flat">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Open image to drive</string>
+                                </property>
+                            </widget>
+                            <widget class="QCheckBox" row="4" column="1">
+                                <property name="name">
+                                    <cstring>BETAWriteProtect2</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>write protect</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Disable writing to image</string>
+                                </property>
+                            </widget>
+                        </grid>
+                    </widget>
+                    <widget class="QGroupBox" row="1" column="0">
+                        <property name="name">
+                            <cstring>groupBox2</cstring>
+                        </property>
+                        <property name="sizePolicy">
+                            <sizepolicy>
+                                <hsizetype>1</hsizetype>
+                                <vsizetype>1</vsizetype>
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                            </sizepolicy>
+                        </property>
+                        <property name="title">
+                            <string>WD93 setup</string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QCheckBox" row="1" column="1">
+                                <property name="name">
+                                    <cstring>BETATraps</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>traps</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Fast read-write traps</string>
+                                </property>
+                            </widget>
+                            <widget class="QCheckBox" row="1" column="0">
+                                <property name="name">
+                                    <cstring>BETANoDelay</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>no delay</string>
+                                </property>
+                                <property name="checked">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="tristate">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>No delays for WD93</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="0" column="0">
+                                <property name="name">
+                                    <cstring>textLabel3</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>Interleaving</string>
+                                </property>
+                                <property name="buddy" stdset="0">
+                                    <cstring>WDInterleave</cstring>
+                                </property>
+                            </widget>
+                            <widget class="QComboBox" row="0" column="1">
+                                <item>
+                                    <property name="text">
+                                        <string>1-2-3-4...15-16</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>1-9-2-10...8-16</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>1-12-7-2...11-6</string>
+                                    </property>
+                                </item>
+                                <property name="name">
+                                    <cstring>BETAInterleave</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>0</hsizetype>
+                                        <vsizetype>0</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="currentItem">
+                                    <number>0</number>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Formatted tracks sectors order</string>
+                                </property>
+                            </widget>
+                        </grid>
+                    </widget>
+                </grid>
+            </widget>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>Widget3</cstring>
+                </property>
+                <attribute name="title">
+                    <string>Sound</string>
+                </attribute>
+                <grid>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QGroupBox" row="0" column="0">
+                        <property name="name">
+                            <cstring>groupBox5</cstring>
+                        </property>
+                        <property name="sizePolicy">
+                            <sizepolicy>
+                                <hsizetype>5</hsizetype>
+                                <vsizetype>1</vsizetype>
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                            </sizepolicy>
+                        </property>
+                        <property name="title">
+                            <string>Sound device settings</string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLabel" row="0" column="0">
+                                <property name="name">
+                                    <cstring>textLabel6</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Device</string>
+                                </property>
+                                <property name="buddy" stdset="0">
+                                    <cstring>lineEdit1</cstring>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="1" column="0">
+                                <property name="name">
+                                    <cstring>textLabel7</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Freq</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="2" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>textLabel8</cstring>
+                                </property>
+                                <property name="paletteForegroundColor">
+                                    <color>
+                                        <red>255</red>
+                                        <green>0</green>
+                                        <blue>0</blue>
+                                    </color>
+                                </property>
+                                <property name="font">
+                                    <font>
+                                        <bold>1</bold>
+                                    </font>
+                                </property>
+                                <property name="text">
+                                    <string>&lt;b&gt;Need restart to accept&lt;/b&gt;</string>
+                                </property>
+                                <property name="textFormat">
+                                    <enum>AutoText</enum>
+                                </property>
+                                <property name="alignment">
+                                    <set>AlignCenter</set>
+                                </property>
+                            </widget>
+                            <widget class="QLineEdit" row="0" column="1">
+                                <property name="name">
+                                    <cstring>SNDDevice</cstring>
+                                </property>
+                                <property name="maxLength">
+                                    <number>128</number>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Sound device (e.g. /dev/dsp)</string>
+                                </property>
+                            </widget>
+                            <widget class="QLineEdit" row="1" column="1">
+                                <property name="name">
+                                    <cstring>SNDFrequency</cstring>
+                                </property>
+                                <property name="inputMask">
+                                    <string>00000; </string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Sound frequency in Hz</string>
+                                </property>
+                            </widget>
+                        </grid>
+                    </widget>
+                    <widget class="QButtonGroup" row="1" column="0">
+                        <property name="name">
+                            <cstring>buttonGroup2</cstring>
+                        </property>
+                        <property name="title">
+                            <string>AY/YM settings</string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QRadioButton" row="0" column="0" rowspan="1" colspan="3">
+                                <property name="name">
+                                    <cstring>SNDAY</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>AY8910</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Select AY8910 coprocessor</string>
+                                </property>
+                            </widget>
+                            <widget class="QCheckBox" row="0" column="4" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>SNDAY35</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>3.5MHz</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Use 3.5MHz CLK for AY/YM</string>
+                                </property>
+                            </widget>
+                            <widget class="QRadioButton" row="0" column="3">
+                                <property name="name">
+                                    <cstring>SNDYM</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>1</hsizetype>
+                                        <vsizetype>0</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>YM2149</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Select YM2149 coprocessor</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="1" column="1" rowspan="2" colspan="1">
+                                <property name="name">
+                                    <cstring>LRA</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>Left
+Right</string>
+                                </property>
+                                <property name="buddy" stdset="0">
+                                    <cstring>slider1_2</cstring>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="1" column="0" rowspan="2" colspan="1">
+                                <property name="name">
+                                    <cstring>ChanA</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>A</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="2" column="5">
+                                <property name="name">
+                                    <cstring>VolAR</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>32</width>
+                                        <height>0</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>0</string>
+                                </property>
+                            </widget>
+                            <widget class="QSlider" row="2" column="2" rowspan="1" colspan="3">
+                                <property name="name">
+                                    <cstring>SNDVolAR</cstring>
+                                </property>
+                                <property name="maxValue">
+                                    <number>100</number>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="tickmarks">
+                                    <enum>NoMarks</enum>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Channel A volume right</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="1" column="5">
+                                <property name="name">
+                                    <cstring>VolAL</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>32</width>
+                                        <height>0</height>
+                                    </size>
+                                </property>
+                                <property name="lineWidth">
+                                    <number>0</number>
+                                </property>
+                                <property name="text">
+                                    <string>0</string>
+                                </property>
+                                <property name="buddy" stdset="0">
+                                    <cstring></cstring>
+                                </property>
+                            </widget>
+                            <widget class="QSlider" row="1" column="2" rowspan="1" colspan="3">
+                                <property name="name">
+                                    <cstring>SNDVolAL</cstring>
+                                </property>
+                                <property name="mouseTracking">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="maxValue">
+                                    <number>100</number>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="tickmarks">
+                                    <enum>NoMarks</enum>
+                                </property>
+                                <property name="tickInterval">
+                                    <number>1</number>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Channel A volume left</string>
+                                </property>
+                            </widget>
+                            <widget class="QSlider" row="3" column="2" rowspan="1" colspan="3">
+                                <property name="name">
+                                    <cstring>SNDVolBL</cstring>
+                                </property>
+                                <property name="mouseTracking">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="maxValue">
+                                    <number>100</number>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="tickmarks">
+                                    <enum>NoMarks</enum>
+                                </property>
+                                <property name="tickInterval">
+                                    <number>1</number>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Channel B volume left</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="4" column="5">
+                                <property name="name">
+                                    <cstring>VolBR</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>32</width>
+                                        <height>0</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>0</string>
+                                </property>
+                            </widget>
+                            <widget class="QSlider" row="4" column="2" rowspan="1" colspan="3">
+                                <property name="name">
+                                    <cstring>SNDVolBR</cstring>
+                                </property>
+                                <property name="maxValue">
+                                    <number>100</number>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="tickmarks">
+                                    <enum>NoMarks</enum>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Channel B volume right</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="3" column="0" rowspan="2" colspan="1">
+                                <property name="name">
+                                    <cstring>ChanB</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>B</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="3" column="5">
+                                <property name="name">
+                                    <cstring>VolBL</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>32</width>
+                                        <height>0</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>0</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="3" column="1" rowspan="2" colspan="1">
+                                <property name="name">
+                                    <cstring>LRB</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>Left
+Right</string>
+                                </property>
+                                <property name="buddy" stdset="0">
+                                    <cstring>slider1_2_2</cstring>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="5" column="1" rowspan="2" colspan="1">
+                                <property name="name">
+                                    <cstring>LRC</cstring>
+                                </property>
+                                <property name="enabled">
+                                    <bool>true</bool>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>Left
+Right</string>
+                                </property>
+                                <property name="buddy" stdset="0">
+                                    <cstring>slider1_2_3</cstring>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="5" column="5">
+                                <property name="name">
+                                    <cstring>VolCL</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>32</width>
+                                        <height>0</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>0</string>
+                                </property>
+                            </widget>
+                            <widget class="QSlider" row="5" column="2" rowspan="1" colspan="3">
+                                <property name="name">
+                                    <cstring>SNDVolCL</cstring>
+                                </property>
+                                <property name="mouseTracking">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="maxValue">
+                                    <number>100</number>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="tickmarks">
+                                    <enum>NoMarks</enum>
+                                </property>
+                                <property name="tickInterval">
+                                    <number>1</number>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Channel C volume left</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="5" column="0" rowspan="2" colspan="1">
+                                <property name="name">
+                                    <cstring>ChanC</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>C</string>
+                                </property>
+                            </widget>
+                            <widget class="QSlider" row="6" column="2" rowspan="1" colspan="3">
+                                <property name="name">
+                                    <cstring>SNDVolCR</cstring>
+                                </property>
+                                <property name="maxValue">
+                                    <number>100</number>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="tickmarks">
+                                    <enum>NoMarks</enum>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Channel C volume right</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="6" column="5">
+                                <property name="name">
+                                    <cstring>VolCR</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>32</width>
+                                        <height>0</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>0</string>
+                                </property>
+                            </widget>
+                            <widget class="QComboBox" row="7" column="3" rowspan="1" colspan="3">
+                                <item>
+                                    <property name="text">
+                                        <string>User defined</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>ABC</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>ACB</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>BAC</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>BCA</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>Mono</string>
+                                    </property>
+                                </item>
+                                <property name="name">
+                                    <cstring>SNDVol</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>1</hsizetype>
+                                        <vsizetype>0</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="7" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>textLabel4</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>Presets</string>
+                                </property>
+                                <property name="buddy" stdset="0">
+                                    <cstring>comboBox2</cstring>
+                                </property>
+                            </widget>
+                        </grid>
+                    </widget>
+                    <widget class="QGroupBox" row="2" column="0">
+                        <property name="name">
+                            <cstring>groupBox4</cstring>
+                        </property>
+                        <property name="title">
+                            <string>Digital devices settings</string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLabel" row="0" column="0">
+                                <property name="name">
+                                    <cstring>Sndrv</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Soundrive</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="1" column="0">
+                                <property name="name">
+                                    <cstring>CovDD</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Covox #DD</string>
+                                </property>
+                            </widget>
+                            <widget class="QSlider" row="3" column="1">
+                                <property name="name">
+                                    <cstring>SNDVolBeepr</cstring>
+                                </property>
+                                <property name="mouseTracking">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="maxValue">
+                                    <number>100</number>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="tickmarks">
+                                    <enum>NoMarks</enum>
+                                </property>
+                                <property name="tickInterval">
+                                    <number>1</number>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Beeper volume</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="1" column="2">
+                                <property name="name">
+                                    <cstring>VolCovDD</cstring>
+                                </property>
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>32</width>
+                                        <height>0</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>0</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="2" column="0">
+                                <property name="name">
+                                    <cstring>CovFB</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Covox #FB</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="0" column="2">
+                                <property name="name">
+                                    <cstring>VolSD</cstring>
+                                </property>
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>32</width>
+                                        <height>0</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>0</string>
+                                </property>
+                            </widget>
+                            <widget class="QSlider" row="1" column="1">
+                                <property name="name">
+                                    <cstring>SNDVolCovDD</cstring>
+                                </property>
+                                <property name="mouseTracking">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="maxValue">
+                                    <number>100</number>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="tickmarks">
+                                    <enum>NoMarks</enum>
+                                </property>
+                                <property name="tickInterval">
+                                    <number>1</number>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Covox #DD volume</string>
+                                </property>
+                            </widget>
+                            <widget class="QSlider" row="0" column="1">
+                                <property name="name">
+                                    <cstring>SNDVolSoundrv</cstring>
+                                </property>
+                                <property name="mouseTracking">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="maxValue">
+                                    <number>100</number>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="tickmarks">
+                                    <enum>NoMarks</enum>
+                                </property>
+                                <property name="tickInterval">
+                                    <number>1</number>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>SounDrive volume</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="3" column="0">
+                                <property name="name">
+                                    <cstring>Beepr</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Beeper</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="3" column="2">
+                                <property name="name">
+                                    <cstring>VolBeepr</cstring>
+                                </property>
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>32</width>
+                                        <height>0</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>0</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="2" column="2">
+                                <property name="name">
+                                    <cstring>VolCovFB</cstring>
+                                </property>
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>32</width>
+                                        <height>0</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>0</string>
+                                </property>
+                            </widget>
+                            <widget class="QSlider" row="2" column="1">
+                                <property name="name">
+                                    <cstring>SNDVolCovFB</cstring>
+                                </property>
+                                <property name="mouseTracking">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="maxValue">
+                                    <number>100</number>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="tickmarks">
+                                    <enum>NoMarks</enum>
+                                </property>
+                                <property name="tickInterval">
+                                    <number>1</number>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Covox #FB volume</string>
+                                </property>
+                            </widget>
+                        </grid>
+                    </widget>
+                </grid>
+            </widget>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>TabPage</cstring>
+                </property>
+                <attribute name="title">
+                    <string>Video</string>
+                </attribute>
+                <grid>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QGroupBox" row="1" column="0">
+                        <property name="name">
+                            <cstring>groupBox5_2</cstring>
+                        </property>
+                        <property name="title">
+                            <string>Other video settings</string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLabel" row="1" column="0">
+                                <property name="name">
+                                    <cstring>textLabel12</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>Skip frames</string>
+                                </property>
+                                <property name="buddy" stdset="0">
+                                    <cstring>spinBox1</cstring>
+                                </property>
+                            </widget>
+                            <widget class="QSpinBox" row="1" column="1" rowspan="1" colspan="3">
+                                <property name="name">
+                                    <cstring>VIDSkipFrames</cstring>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Render every nth frame in fast mode</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="11" column="0">
+                                <property name="name">
+                                    <cstring>textLabel18</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>Presets</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="2" column="3">
+                                <property name="name">
+                                    <cstring>textLabel11</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Bright</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="2" column="0" rowspan="1" colspan="3">
+                                <property name="name">
+                                    <cstring>textLabel10</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Usual</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="3" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor0</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Black</string>
+                                </property>
+                            </widget>
+                            <widget class="QCheckBox" row="0" column="0" rowspan="1" colspan="4">
+                                <property name="name">
+                                    <cstring>VIDFullScreen</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Start fullscreen</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Start in fullscreen mode</string>
+                                </property>
+                            </widget>
+                            <widget class="QComboBox" row="11" column="1" rowspan="1" colspan="3">
+                                <property name="name">
+                                    <cstring>VIDPalettes</cstring>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="4" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor1</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Blue</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="5" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor2</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Red</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="6" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor3</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Magenta</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="7" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor4</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Green</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="8" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor5</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Cyan</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="9" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor6</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Yellow</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="10" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor7</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>White</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="3" column="2" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor8</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Black bright</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="4" column="2" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor9</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Blue bright</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="5" column="2" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor10</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Red bright</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="6" column="2" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor11</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Magenta bright</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="7" column="2" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor12</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Green bright</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="8" column="2" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor13</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Cyan bright</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="9" column="2" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor14</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Yellow bright</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="10" column="2" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>VIDColor15</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>White bright</string>
+                                </property>
+                            </widget>
+                        </grid>
+                    </widget>
+                    <widget class="QButtonGroup" row="0" column="0">
+                        <property name="name">
+                            <cstring>buttonGroup1</cstring>
+                        </property>
+                        <property name="title">
+                            <string>SDL settings</string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QCheckBox" row="1" column="0">
+                                <property name="name">
+                                    <cstring>VIDAsyncBlit</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Async blitting</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Use asyncronous blitting</string>
+                                </property>
+                            </widget>
+                            <widget class="QCheckBox" row="2" column="0">
+                                <property name="name">
+                                    <cstring>VIDDoubleBuf</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Double buffering</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Use double buffering</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="3" column="0">
+                                <property name="name">
+                                    <cstring>textLabel8_2</cstring>
+                                </property>
+                                <property name="paletteForegroundColor">
+                                    <color>
+                                        <red>255</red>
+                                        <green>0</green>
+                                        <blue>0</blue>
+                                    </color>
+                                </property>
+                                <property name="font">
+                                    <font>
+                                        <bold>1</bold>
+                                    </font>
+                                </property>
+                                <property name="text">
+                                    <string>&lt;b&gt;Need restart to accept&lt;/b&gt;</string>
+                                </property>
+                                <property name="textFormat">
+                                    <enum>AutoText</enum>
+                                </property>
+                                <property name="alignment">
+                                    <set>AlignCenter</set>
+                                </property>
+                            </widget>
+                            <widget class="QCheckBox" row="0" column="0">
+                                <property name="name">
+                                    <cstring>VIDHWSurface</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Hardware surface</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Create surface in video memory</string>
+                                </property>
+                            </widget>
+                        </grid>
+                    </widget>
+                </grid>
+            </widget>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>TabPage</cstring>
+                </property>
+                <attribute name="title">
+                    <string>System</string>
+                </attribute>
+                <grid>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QGroupBox" row="1" column="0">
+                        <property name="name">
+                            <cstring>groupBox7</cstring>
+                        </property>
+                        <property name="palette">
+                            <palette>
+                                <active>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>0</blue>
+                                    </color>
+                                    <color>
+                                        <red>221</red>
+                                        <green>223</green>
+                                        <blue>228</blue>
+                                    </color>
+                                    <color>
+                                        <red>255</red>
+                                        <green>255</green>
+                                        <blue>255</blue>
+                                    </color>
+                                    <color>
+                                        <red>238</red>
+                                        <green>239</green>
+                                        <blue>241</blue>
+                                    </color>
+                                    <color>
+                                        <red>110</red>
+                                        <green>111</green>
+                                        <blue>114</blue>
+                                    </color>
+                                    <color>
+                                        <red>147</red>
+                                        <green>149</green>
+                                        <blue>152</blue>
+                                    </color>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>0</blue>
+                                    </color>
+                                    <color>
+                                        <red>255</red>
+                                        <green>255</green>
+                                        <blue>255</blue>
+                                    </color>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>0</blue>
+                                    </color>
+                                    <color>
+                                        <red>255</red>
+                                        <green>255</green>
+                                        <blue>255</blue>
+                                    </color>
+                                    <color>
+                                        <red>239</red>
+                                        <green>239</green>
+                                        <blue>239</blue>
+                                    </color>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>0</blue>
+                                    </color>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>128</blue>
+                                    </color>
+                                    <color>
+                                        <red>255</red>
+                                        <green>255</green>
+                                        <blue>255</blue>
+                                    </color>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>0</blue>
+                                    </color>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>0</blue>
+                                    </color>
+                                </active>
+                                <disabled>
+                                    <color>
+                                        <red>128</red>
+                                        <green>128</green>
+                                        <blue>128</blue>
+                                    </color>
+                                    <color>
+                                        <red>221</red>
+                                        <green>223</green>
+                                        <blue>228</blue>
+                                    </color>
+                                    <color>
+                                        <red>255</red>
+                                        <green>255</green>
+                                        <blue>255</blue>
+                                    </color>
+                                    <color>
+                                        <red>254</red>
+                                        <green>254</green>
+                                        <blue>255</blue>
+                                    </color>
+                                    <color>
+                                        <red>110</red>
+                                        <green>111</green>
+                                        <blue>114</blue>
+                                    </color>
+                                    <color>
+                                        <red>147</red>
+                                        <green>149</green>
+                                        <blue>152</blue>
+                                    </color>
+                                    <color>
+                                        <red>128</red>
+                                        <green>128</green>
+                                        <blue>128</blue>
+                                    </color>
+                                    <color>
+                                        <red>255</red>
+                                        <green>255</green>
+                                        <blue>255</blue>
+                                    </color>
+                                    <color>
+                                        <red>128</red>
+                                        <green>128</green>
+                                        <blue>128</blue>
+                                    </color>
+                                    <color>
+                                        <red>255</red>
+                                        <green>255</green>
+                                        <blue>255</blue>
+                                    </color>
+                                    <color>
+                                        <red>239</red>
+                                        <green>239</green>
+                                        <blue>239</blue>
+                                    </color>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>0</blue>
+                                    </color>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>128</blue>
+                                    </color>
+                                    <color>
+                                        <red>255</red>
+                                        <green>255</green>
+                                        <blue>255</blue>
+                                    </color>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>238</blue>
+                                    </color>
+                                    <color>
+                                        <red>82</red>
+                                        <green>24</green>
+                                        <blue>139</blue>
+                                    </color>
+                                </disabled>
+                                <inactive>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>0</blue>
+                                    </color>
+                                    <color>
+                                        <red>221</red>
+                                        <green>223</green>
+                                        <blue>228</blue>
+                                    </color>
+                                    <color>
+                                        <red>255</red>
+                                        <green>255</green>
+                                        <blue>255</blue>
+                                    </color>
+                                    <color>
+                                        <red>254</red>
+                                        <green>254</green>
+                                        <blue>255</blue>
+                                    </color>
+                                    <color>
+                                        <red>110</red>
+                                        <green>111</green>
+                                        <blue>114</blue>
+                                    </color>
+                                    <color>
+                                        <red>147</red>
+                                        <green>149</green>
+                                        <blue>152</blue>
+                                    </color>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>0</blue>
+                                    </color>
+                                    <color>
+                                        <red>255</red>
+                                        <green>255</green>
+                                        <blue>255</blue>
+                                    </color>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>0</blue>
+                                    </color>
+                                    <color>
+                                        <red>255</red>
+                                        <green>255</green>
+                                        <blue>255</blue>
+                                    </color>
+                                    <color>
+                                        <red>239</red>
+                                        <green>239</green>
+                                        <blue>239</blue>
+                                    </color>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>0</blue>
+                                    </color>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>128</blue>
+                                    </color>
+                                    <color>
+                                        <red>255</red>
+                                        <green>255</green>
+                                        <blue>255</blue>
+                                    </color>
+                                    <color>
+                                        <red>0</red>
+                                        <green>0</green>
+                                        <blue>238</blue>
+                                    </color>
+                                    <color>
+                                        <red>82</red>
+                                        <green>24</green>
+                                        <blue>139</blue>
+                                    </color>
+                                </inactive>
+                            </palette>
+                        </property>
+                        <property name="title">
+                            <string>Memory</string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLabel" row="1" column="0">
+                                <property name="name">
+                                    <cstring>textLabel17</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>Cache size</string>
+                                </property>
+                                <property name="buddy" stdset="0">
+                                    <cstring>lineEdit6</cstring>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="0" column="0">
+                                <property name="name">
+                                    <cstring>textLabel16</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>5</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>Model (mem size)</string>
+                                </property>
+                                <property name="buddy" stdset="0">
+                                    <cstring>MemoryModel</cstring>
+                                </property>
+                            </widget>
+                            <widget class="QComboBox" row="0" column="1">
+                                <item>
+                                    <property name="text">
+                                        <string>Pentagon 128k</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>Pentagon 512k</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>Scorpion 256k</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>ATM 512k</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>Profi 1024k</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>Scorpion 1024k</string>
+                                    </property>
+                                </item>
+                                <property name="name">
+                                    <cstring>MEMMemType</cstring>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Computer model and memory size</string>
+                                </property>
+                            </widget>
+                            <widget class="QLineEdit" row="1" column="1">
+                                <property name="name">
+                                    <cstring>MEMCacheSize</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>1</hsizetype>
+                                        <vsizetype>0</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="inputMask">
+                                    <string>00000; </string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Cache size (0 for disable)</string>
+                                </property>
+                            </widget>
+                        </grid>
+                    </widget>
+                    <widget class="QGroupBox" row="0" column="0">
+                        <property name="name">
+                            <cstring>groupBox6</cstring>
+                        </property>
+                        <property name="title">
+                            <string>ULA</string>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel15</cstring>
+                            </property>
+                            <property name="geometry">
+                                <rect>
+                                    <x>11</x>
+                                    <y>89</y>
+                                    <width>131</width>
+                                    <height>26</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string>Ticks before paper</string>
+                            </property>
+                            <property name="buddy" stdset="0">
+                                <cstring>ULATicksbeforepaper</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel14</cstring>
+                            </property>
+                            <property name="geometry">
+                                <rect>
+                                    <x>11</x>
+                                    <y>57</y>
+                                    <width>131</width>
+                                    <height>26</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string>Ticks per line</string>
+                            </property>
+                            <property name="buddy" stdset="0">
+                                <cstring>ULATicksperline</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel13</cstring>
+                            </property>
+                            <property name="geometry">
+                                <rect>
+                                    <x>11</x>
+                                    <y>25</y>
+                                    <width>131</width>
+                                    <height>26</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string>Ticks per frame</string>
+                            </property>
+                            <property name="buddy" stdset="0">
+                                <cstring>ULATicksperframe</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>ULATicksPerFrame</cstring>
+                            </property>
+                            <property name="geometry">
+                                <rect>
+                                    <x>148</x>
+                                    <y>25</y>
+                                    <width>133</width>
+                                    <height>26</height>
+                                </rect>
+                            </property>
+                            <property name="maxLength">
+                                <number>6</number>
+                            </property>
+                            <property name="inputMask">
+                                <string>000000; </string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Ticks of CPU per 20ms</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>ULATicksPerLine</cstring>
+                            </property>
+                            <property name="geometry">
+                                <rect>
+                                    <x>148</x>
+                                    <y>57</y>
+                                    <width>133</width>
+                                    <height>26</height>
+                                </rect>
+                            </property>
+                            <property name="maxLength">
+                                <number>6</number>
+                            </property>
+                            <property name="inputMask">
+                                <string>000000; </string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Ticks of CPU to render one line</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>ULATicksBeforePaper</cstring>
+                            </property>
+                            <property name="geometry">
+                                <rect>
+                                    <x>148</x>
+                                    <y>89</y>
+                                    <width>133</width>
+                                    <height>26</height>
+                                </rect>
+                            </property>
+                            <property name="maxLength">
+                                <number>6</number>
+                            </property>
+                            <property name="inputMask">
+                                <string>000000; </string>
+                            </property>
+                            <property name="toolTip" stdset="0">
+                                <string>Ticks of CPU before paper starts</string>
+                            </property>
+                        </widget>
+                        <widget class="QCheckBox">
+                            <property name="name">
+                                <cstring>ULAEvenM1</cstring>
+                            </property>
+                            <property name="geometry">
+                                <rect>
+                                    <x>10</x>
+                                    <y>120</y>
+                                    <width>270</width>
+                                    <height>24</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string>Even M1</string>
+                            </property>
+                        </widget>
+                    </widget>
+                    <widget class="QGroupBox" row="2" column="0">
+                        <property name="name">
+                            <cstring>groupBox8</cstring>
+                        </property>
+                        <property name="title">
+                            <string>System</string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QCheckBox" row="1" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>SYSExtCommands</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Extended commands</string>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>Enables extended emulator-specific commands</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="0" column="0">
+                                <property name="name">
+                                    <cstring>textLabel1_2</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>4</hsizetype>
+                                        <vsizetype>1</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="text">
+                                    <string>Reset to</string>
+                                </property>
+                            </widget>
+                            <widget class="QComboBox" row="0" column="1">
+                                <item>
+                                    <property name="text">
+                                        <string>Basic 128</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>Basic 48</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>TR-DOS</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>System</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>Cache</string>
+                                    </property>
+                                </item>
+                                <property name="name">
+                                    <cstring>SYSResetTo</cstring>
+                                </property>
+                                <property name="sizePolicy">
+                                    <sizepolicy>
+                                        <hsizetype>1</hsizetype>
+                                        <vsizetype>0</vsizetype>
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="toolTip" stdset="0">
+                                    <string>ROM to reset to</string>
+                                </property>
+                            </widget>
+                        </grid>
+                    </widget>
+                </grid>
+            </widget>
+        </widget>
+        <widget class="QLayoutWidget" row="1" column="0">
+            <property name="name">
+                <cstring>layout2</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>buttonReload</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Reload</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+R</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>Horizontal Spacing2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>300</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>buttonOk</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;OK</string>
+                    </property>
+                    <property name="accel">
+                        <string></string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>true</bool>
+                    </property>
+                    <property name="default">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>buttonSave</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Save</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>buttonCancel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Cancel</string>
+                    </property>
+                    <property name="accel">
+                        <string></string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </grid>
+</widget>
+<connections>
+    <connection>
+        <sender>buttonOk</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>accept()</slot>
+    </connection>
+    <connection>
+        <sender>buttonCancel</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>reject()</slot>
+    </connection>
+    <connection>
+        <sender>SNDVolCovFB</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>SNDVolCovFB_valueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>SNDVolSoundrv</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>SNDVolSoundrv_valueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>SNDVolCovDD</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>SNDVolCovDD_valueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>SNDVolBeepr</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>SNDVolBeepr_valueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>SNDVol</sender>
+        <signal>activated(int)</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>SNDVol_activated(int)</slot>
+    </connection>
+    <connection>
+        <sender>SNDVolCR</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>SNDVolCR_valueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>SNDVolCL</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>SNDVolCL_valueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>SNDVolBR</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>SNDVolBR_valueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>SNDVolBL</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>SNDVolBL_valueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>SNDVolAL</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>SNDVolAL_valueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>SNDVolAR</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>SNDVolAR_valueChanged(int)</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor0</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor0_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor1</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor1_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor2</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor2_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor3</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor3_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor4</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor4_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor5</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor5_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor6</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor6_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor7</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor7_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor8</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor8_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor9</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor9_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor10</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor10_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor11</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor11_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor12</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor12_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor13</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor13_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor14</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor14_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>VIDColor15</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>VIDColor15_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>Eject0</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>Eject0_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>Eject1</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>Eject1_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>Eject2</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>Eject2_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>Eject3</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>Eject3_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>BETAImages0</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>BETAImages0_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>BETAImages1</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>BETAImages1_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>BETAImages2</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>BETAImages2_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>BETAImages3</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>BETAImages3_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>buttonReload</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>buttonReload_clicked()</slot>
+    </connection>
+    <connection>
+        <sender>buttonSave</sender>
+        <signal>clicked()</signal>
+        <receiver>OptionsDlg</receiver>
+        <slot>buttonSave_clicked()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">options.h</include>
+    <include location="local" impldecl="in implementation">configure.h</include>
+    <include location="local" impldecl="in implementation">options.ui.h</include>
+</includes>
+<slots>
+    <slot>setColors( unsigned * pPalette )</slot>
+    <slot>getColors( unsigned * pPalette )</slot>
+    <slot returnType="int">exec()</slot>
+    <slot>SNDVolAL_valueChanged( int val )</slot>
+    <slot>SNDVolAR_valueChanged( int val )</slot>
+    <slot>SNDVolBL_valueChanged( int val )</slot>
+    <slot>SNDVolBR_valueChanged( int val )</slot>
+    <slot>SNDVolCL_valueChanged( int val )</slot>
+    <slot>SNDVolCR_valueChanged( int val )</slot>
+    <slot>SNDVolSoundrv_valueChanged( int val )</slot>
+    <slot>SNDVolCovDD_valueChanged( int val )</slot>
+    <slot>SNDVolCovFB_valueChanged( int val )</slot>
+    <slot>SNDVolBeepr_valueChanged( int val )</slot>
+    <slot>SNDVol_activated( int mode )</slot>
+    <slot>changeColor( QPushButton * sender )</slot>
+    <slot>VIDColor0_clicked()</slot>
+    <slot>VIDColor1_clicked()</slot>
+    <slot>VIDColor2_clicked()</slot>
+    <slot>VIDColor3_clicked()</slot>
+    <slot>VIDColor4_clicked()</slot>
+    <slot>VIDColor5_clicked()</slot>
+    <slot>VIDColor6_clicked()</slot>
+    <slot>VIDColor7_clicked()</slot>
+    <slot>VIDColor8_clicked()</slot>
+    <slot>VIDColor9_clicked()</slot>
+    <slot>VIDColor10_clicked()</slot>
+    <slot>VIDColor11_clicked()</slot>
+    <slot>VIDColor12_clicked()</slot>
+    <slot>VIDColor13_clicked()</slot>
+    <slot>VIDColor14_clicked()</slot>
+    <slot>VIDColor15_clicked()</slot>
+    <slot>Eject0_clicked()</slot>
+    <slot>Eject1_clicked()</slot>
+    <slot>Eject2_clicked()</slot>
+    <slot>Eject3_clicked()</slot>
+    <slot>BETAImages0_clicked()</slot>
+    <slot>BETAImages1_clicked()</slot>
+    <slot>BETAImages2_clicked()</slot>
+    <slot>BETAImages3_clicked()</slot>
+    <slot>buttonReload_clicked()</slot>
+    <slot>buttonSave_clicked()</slot>
+</slots>
+<functions>
+    <function>loadFile( unsigned drv )</function>
+    <function access="private">prepareSetup()</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VSPPlayer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/VSPPlayer.res" /d "_DEBUG" /d "_AFXDLL" "D:\Progr\Microsoft Visual Studio\My Projects\vspplayer\VSPPlayer.rc"" 
+Creating temporary file "c:\recycled\RSPB2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/VSPPlayer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Progr\Microsoft Visual Studio\My Projects\vspplayer\GFXControl.cpp"
+"D:\Progr\Microsoft Visual Studio\My Projects\vspplayer\InfoDlg.cpp"
+"D:\Progr\Microsoft Visual Studio\My Projects\vspplayer\SetupDialog.cpp"
+"D:\Progr\Microsoft Visual Studio\My Projects\vspplayer\VSPPlayer.cpp"
+"D:\Progr\Microsoft Visual Studio\My Projects\vspplayer\VSPPlayerDlg.cpp"
+"D:\Progr\Microsoft Visual Studio\My Projects\vspplayer\ScaleFilter.cpp"
+"D:\Progr\Microsoft Visual Studio\My Projects\vspplayer\FileDlg.cpp"
+"D:\Progr\Microsoft Visual Studio\My Projects\vspplayer\VSPPlay.cpp"
+]
+Creating command line "cl.exe @c:\recycled\RSPB2.tmp" 
+Creating temporary file "c:\recycled\RSPB3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/VSPPlayer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Progr\Microsoft Visual Studio\My Projects\vspplayer\StdAfx.cpp"
+]
+Creating command line "cl.exe @c:\recycled\RSPB3.tmp" 
+Creating temporary file "c:\recycled\RSPB4.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/VSPPlayer.pdb" /debug /machine:I386 /out:"Debug/VSPPlayer.exe" /pdbtype:sept /opt:nowin98 
+".\Debug\GFXControl.obj"
+".\Debug\InfoDlg.obj"
+".\Debug\SetupDialog.obj"
+".\Debug\StdAfx.obj"
+".\Debug\VSPPlayer.obj"
+".\Debug\VSPPlayerDlg.obj"
+".\Debug\ScaleFilter.obj"
+".\Debug\FileDlg.obj"
+".\Debug\VSPPlay.obj"
+".\Debug\VSPPlayer.res"
+]
+Creating command line "link.exe @c:\recycled\RSPB4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+d:\progr\microsoft visual studio\my projects\vspplayer\stdafx.cpp(9) : fatal error C1001: INTERNAL COMPILER ERROR
+        (compiler file 'msc1.cpp', line 1786) 
+         Please choose the Technical Support command on the Visual C++ 
+         Help menu, or open the Technical Support help file for more information
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+VSPPlayer.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

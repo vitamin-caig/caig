@@ -1,0 +1,69 @@
+# Microsoft Developer Studio Generated Dependency File, included by VSPPlayer.mak
+
+.\GFXControl.cpp : \
+	".\GFXControl.h"\
+	".\VSPPlayer.h"\
+	
+
+.\InfoDlg.cpp : \
+	".\InfoDlg.h"\
+	".\VSPPlayer.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\vc98\include\basetsd.h"\
+	".\StdAfx.h"\
+	
+
+.\VSPPlayer.cpp : \
+	".\GFXControl.h"\
+	".\InfoDlg.h"\
+	".\VSPPlay.h"\
+	".\VSPPlayer.h"\
+	".\VSPPlayerDlg.h"\
+	
+
+.\VSPPlayer.rc : \
+	".\res\about1.bmp"\
+	".\res\about2.bmp"\
+	".\res\bitmap1.bmp"\
+	".\res\close1.bmp"\
+	".\res\close2.bmp"\
+	".\res\digits.bmp"\
+	".\res\info1.bmp"\
+	".\res\info2.bmp"\
+	".\res\minimize1.bmp"\
+	".\res\minimize2.bmp"\
+	".\res\ontop1.bmp"\
+	".\res\ontop2.bmp"\
+	".\res\open1.bmp"\
+	".\res\open2.bmp"\
+	".\res\play1.bmp"\
+	".\res\play2.bmp"\
+	".\res\setup1.bmp"\
+	".\res\setup2.bmp"\
+	".\res\stop1.bmp"\
+	".\res\stop2.bmp"\
+	".\res\VSPPlayer.ico"\
+	".\res\VSPPlayer.rc2"\
+	
+
+.\VSPPlayerDlg.cpp : \
+	".\encode.h"\
+	".\GFXControl.h"\
+	".\InfoDlg.h"\
+	".\VSPPlay.h"\
+	".\VSPPlayer.h"\
+	".\VSPPlayerDlg.h"\
+	
+
+.\FileDlg.cpp : \
+	".\FileDlg.h"\
+	".\VSPPlayer.h"\
+	
+
+.\VSPPlay.cpp : \
+	".\FileDlg.h"\
+	".\VSPPlay.h"\
+	".\VSPPlayer.h"\
+	

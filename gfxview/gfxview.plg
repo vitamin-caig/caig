@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gfxview - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\recycled\RSP62.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "GFXVIEW_EXPORTS" /Fp"Debug/gfxview.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Progr\Microsoft Visual Studio\My Projects\gfxview\View.cpp"
+]
+Creating command line "cl.exe @c:\recycled\RSP62.tmp" 
+Creating temporary file "c:\recycled\RSP63.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/gfxview.pdb" /debug /machine:I386 /def:".\gfxview.def" /out:"Debug/gfxview.wlx" /implib:"Debug/gfxview.lib" /pdbtype:sept 
+".\Debug\gfxview.obj"
+".\Debug\StdAfx.obj"
+".\Debug\View.obj"
+]
+Creating command line "link.exe @c:\recycled\RSP63.tmp"
+<h3>Output Window</h3>
+Compiling...
+View.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+gfxview.wlx - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
